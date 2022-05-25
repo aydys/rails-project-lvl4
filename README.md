@@ -37,6 +37,7 @@ heroku config:set RACK_ENV=production
 heroku config:set RAILS_ENV=production
 heroku config:set RAILS_LOG_TO_STDOUT=enabled
 heroku config:set NODE_ENV=production
+heroku config:set ROLLBAR_ACCESS_TOKEN='< тут должен быть ROLLBAR_ACCESS_TOKEN>'
 ```
 
 Развертывание приложения на heroku
