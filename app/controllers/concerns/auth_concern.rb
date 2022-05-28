@@ -8,7 +8,7 @@ module AuthConcern
       session[:user_id] = user.id
     end
 
-    def sing_out
+    def sign_out
       reset_session
     end
 
