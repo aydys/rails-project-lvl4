@@ -4,8 +4,11 @@ one:
   email: MyString
   nickname: MyString
   token: MyString
-
+  image_url: MyString
+  name: MyString
 two:
   email: MyString
   nickname: MyString
   token: MyString
+  image_url: MyString
+  name: MyString
