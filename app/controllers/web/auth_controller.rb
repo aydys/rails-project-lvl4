@@ -6,9 +6,9 @@ module Web
       user = User.find_or_initialize_by(email: auth[:info][:email].downcase)
 
       if user.new_record?
-        user.nickname = auth[:info][:nickname],
-        user.token = auth[:credentials][:token],
-        user.name = auth[:info][:name],
+        user.nickname = auth[:info][:nickname]
+        user.token = auth[:credentials][:token]
+        user.name = auth[:info][:name]
         user.image_url = auth[:info][:image]
         user.save!
       end
