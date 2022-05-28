@@ -1,0 +1,8 @@
+en:
+  web:
+    auth:
+      success: Successfully signed in into your account
+      fail: Failed to login
+    sessions:
+      destroy:
+        logout: Successfully logged out from your account

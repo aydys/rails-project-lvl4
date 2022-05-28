@@ -1,0 +1,7 @@
+en:
+  layouts:
+    shared:
+      nav:
+        home: Home
+        sign_in: Sign in
+        sign_out: Sign_out
